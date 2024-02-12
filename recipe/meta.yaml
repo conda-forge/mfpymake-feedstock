@@ -1,5 +1,5 @@
 {% set name = "mfpymake" %}
-{% set version = "1.2.8" %}
+{% set version = "1.2.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mfpymake-{{ version }}.tar.gz
-  sha256: bd1f54913af41789a001550225785b8957f32e4883f85c48a258a67b63f2e9f4
+  sha256: b4f3efb1de60d53307981ee783ff107f639a755507a6f4d1694fb59cd3e9c47f
 
 build:
   entry_points:
