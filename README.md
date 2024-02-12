@@ -144,5 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@jdhughes-usgs](https://github.com/jdhughes-usgs/)
-* [@w-bonelli](https://github.com/w-bonelli/)
+* [@wpbonelli](https://github.com/w-bonelli/)
 
