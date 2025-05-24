@@ -1,5 +1,5 @@
 {% set name = "mfpymake" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mfpymake-{{ version }}.tar.gz
-  sha256: 4bb5e02ef4f925371c196330ccb403d6e95e5bc1156bf554e511436d1b78ee3e
+  sha256: 0bfc4d97612654962e29fa13663682e9a4bccc11c72d60f149f9ee46a3e32994
 
 build:
   entry_points:
@@ -51,5 +51,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - jdhughes-usgs
+    - jdhughes-dev
     - wpbonelli
