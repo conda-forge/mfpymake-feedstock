@@ -1,5 +1,5 @@
 {% set name = "mfpymake" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/mfpymake-{{ version }}.tar.gz
-  sha256: 16602256570bf7f0d4f427f33b339742ae1a9374b03d9454c2a23afcc77d95c1
+  sha256: c7fa092838c09fe5484e4a9077a75f54f129a3bd5a9f971b2fb1777669e33a01
 
 build:
   entry_points:
